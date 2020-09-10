@@ -1,0 +1,160 @@
+
+@import 'varriable.scss';
+@import 'mixins.scss';
+@import 'extend';
+@import 'responsive.scss';
+@import 'theme-default.scss';
+@import 'btn';
+@import 'section_title';
+@import 'slick-nav.scss';
+
+
+
+/*
+ * @package   Responsive Menu
+ * @author    @asiermusa
+ * @license   MIT
+ */
+
+@import 'inc/_vars';
+@import 'inc/_mixins';
+@import 'inc/_menu';
+
+// Font Smooth
+%font-smooth {
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+
+// General styles
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-family: $font-family;
+    font-weight: 300;
+}
+
+body {
+	background: url('../../background.jpg');
+}
+
+// xs menu general styles
+.menu-content {
+	position: fixed;
+	height: 100%;
+	transform: translate(-100%, 0);
+	width: 0;
+	overflow: hidden;
+	z-index: 1;
+	
+	@include from(xs) {
+		width: 100%;
+		transform: translate(0, 0);
+		height: map-get($sizes, 'menu-height');
+		overflow: visible;
+	}
+	
+	&.open {
+		transform: translate(0, 0);
+		transition: all 0.5s;
+		// xs opening animation
+		transition-timing-function: cubic-bezier(.62,.04,.82,.13);
+		// xs menu width
+		width: 60%;
+		box-shadow: 5px 5px 15px 0 rgba(black, 0.1);
+		min-height: 100%!important;
+		
+		@include from(xs) {
+			width: 100%;
+		}
+	}
+
+	&.close {
+		transform: translate(-100%, 0);
+		transition: all 0.5s;
+		// Here can you change the xs opening animation
+		transition-timing-function: cubic-bezier(.62,.04,.82,.13);
+		text-shadow: none;
+		width: 0;
+		
+		@include from(xs) {
+			width: 100%;
+		}
+	}
+}
+
+
+
+// header
+@import 'header';
+
+// slider
+@import 'slider';
+
+// about
+@import 'about';
+
+// counter
+@import 'counter';
+// counter
+@import 'team';
+// contact_quote
+@import 'contact_quote';
+// testmonial
+@import 'testmonial';
+// contact_action
+@import 'contact_action';
+// _property_details
+@import 'property_details';
+// accordion
+@import 'accordion';
+// accordion_area
+@import 'accordion_area';
+// popular_property
+@import 'popular_property';
+// prise_slider
+@import 'prise_slider';
+// case_details
+@import 'case_details';
+
+// gallery
+@import '_gallery';
+
+// about
+@import 'offers';
+// about
+@import 'footer';
+
+@import 'bradcam';
+
+@import 'department';
+
+@import 'tesmonial';
+
+@import 'service';
+
+@import 'experts';
+
+@import 'emergency_contact';
+
+
+// other pages default
+
+// contact
+@import 'contact';
+
+// elements
+@import 'elements.scss';
+
+// blog
+@import 'blog';
+
+
+// blog part
+@import 'blog_part';
+
