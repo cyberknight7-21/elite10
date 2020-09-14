@@ -730,7 +730,8 @@ h3 {
 
 /* line 13, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
-  background: #fff;
+    background: linear-gradient(to right, #fabec8 0%, #ffc3a0 100%);
+
   float: right;
   margin-top: 0;
   padding: 0;
@@ -798,6 +799,7 @@ h3 {
   /* line 12, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slick-nav.scss */
   .slicknav_menu {
     margin-right: 0px;
+	
   }
 }
 
@@ -1383,14 +1385,14 @@ h3 {
 
 /* line 10, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
 .slider_area::before {
-  background: #001D38;
+  background: #590010;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   content: '';
-  opacity: .6;
+  opacity: .2;
 }
 
 /* line 20, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
@@ -1535,7 +1537,7 @@ h3 {
 /* line 102, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_slider.scss */
 .slider_area .single_slider .property_form {
   padding: 30px;
-  background: rgba(0, 28, 56, 0.6);
+  background: linear-gradient(to right, #fabec8 0%, #ffc3a0 100%);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -2521,7 +2523,8 @@ h3 {
   position: relative;
   margin-top: -151px;
   padding-bottom: 90px;
-}
+ background: linear-gradient(to right , #ffafbd 0%, #ffc3a0 100%);
+ }
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_property_details.scss */
@@ -2550,7 +2553,7 @@ h3 {
   line-height: 40px;
   left: 50px;
   color: #001D38;
-  background: #fff;
+  background: #ffff99;
   border: none;
 }
 
@@ -3041,6 +3044,7 @@ h3 {
 .popular_property {
   padding-top: 120px;
   padding-bottom: 90px;
+   background: linear-gradient(to right, #ffafbd  0%, #ffc3a0 100%)
 }
 
 /* line 4, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
@@ -3078,6 +3082,7 @@ h3 {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+   background: linear-gradient(to right bottom, #ffafbd 0%, #ff6666 100%);
 }
 
 /* line 22, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
@@ -3140,7 +3145,7 @@ h3 {
 
 /* line 59, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
 .popular_property .single_property .property_content .main_pro h3 a:hover {
-  color: #FDAE5C;
+  color: #ffff;
 }
 
 /* line 69, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
@@ -4333,7 +4338,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #F5FBFF;
+      background: linear-gradient(to right bottom, #ffafbd 0%, #ffc3a0 100%);
+
 }
 
 /* line 7, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_footer.scss */
