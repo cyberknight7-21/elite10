@@ -3074,15 +3074,16 @@ h3 {
 
 /* line 17, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
 .popular_property .single_property {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   overflow: hidden;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
    background: linear-gradient(to right bottom, #ffafbd 0%, #ff6666 100%);
+   
 }
 
 /* line 22, ../../Arafath/CL/CL October/217. Real Estate/HTML/scss/_popular_property.scss */
